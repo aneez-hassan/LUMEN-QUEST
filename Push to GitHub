@@ -1,5 +1,5 @@
 git init
 git add .
 git commit -m "AI-based personalized recommendation MVP"
-git remote add origin https://github.com/<aneezhassan99>/ai-recommendation-mvp.git
+git remote add origin https://github.com/<aneez-hassan>/ai-recommendation-mvp.git
 git push -u origin main
