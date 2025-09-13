@@ -1,0 +1,12 @@
+ai-recommendation-mvp/
+│
+├─ backend/
+│   ├─ server.js
+│   ├─ .env
+│   ├─ models/
+│   │   └─ Recommendation.js
+│   └─ routes/
+│       └─ recommendations.js
+└─ frontend/
+    └─ src/components/
+        └─ Recommendation.js
