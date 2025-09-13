@@ -24,3 +24,68 @@ It allows users to subscribe, manage plans, and receive **personalized plan reco
 ---
 
 ## 📂 Project Structure
+backend/
+├── server.js
+├── models/
+│ └── recommendations.js
+├── routes/
+│ └── recommendations.js
+└── .env
+frontend/
+└── src/
+└── components/
+└── Recommendation.js
+
+---
+
+## ⚡ Installation
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/ai-recommendation-mvp.git
+   cd ai-recommendation-mvp
+Install backend dependencies:
+
+cd backend
+npm install
+
+
+Install frontend dependencies:
+
+cd frontend
+npm install
+
+
+Create .env in backend:
+
+MONGO_URI=your_mongo_connection_string
+PORT=5000
+
+
+Run backend:
+
+cd backend
+npm start
+
+
+Run frontend:
+
+cd frontend
+npm start
+
+🎯 Usage
+
+Users can log in (simulated).
+
+Based on previous usage & plan type, the AI will recommend a better plan.
+
+Admins can view top-performing plans and manage plans.
+
+🤝 Contribution
+
+Pull requests are welcome. Please fork the repo and open a PR.
+
+📜 License
+
+MIT License © 2025
+
